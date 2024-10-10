@@ -1,4 +1,11 @@
 import React from 'react';
+import acrimony from '../Images/acrimony.jpg';
+import annebelle from '../Images/annabelle.jpg';
+import insidious from '../Images/insidious.jpg';
+import getout from '../Images/getout.jpg';
+import theconjuring from '../Images/theconjuring.jpg';
+import us from '../Images/us.jpg';
+
 
 function Home() {
     return (
@@ -12,7 +19,7 @@ function Home() {
      <div class="skill-box">
          <div class="skill-title">
              <div class="language-images">
-                 <img src="Images/Html_image.png" class="skill-icon"/>
+                 <img src={theconjuring} class="skill-icon"/>
              </div>
              <h3>The Conjuring</h3>
          </div>
@@ -22,7 +29,7 @@ function Home() {
  <div class="skill-box">
          <div class="skill-title">
              <div class="language-images">
-                 <img src="Images/CSS_image.png" class="skill-icon"/>
+                 <img src={insidious} class="skill-icon"/>
              </div>
              <h3>Insidious</h3>
          </div>
@@ -32,7 +39,7 @@ function Home() {
  <div class="skill-box">
      <div class="skill-title">
          <div class="language-images">
-             <img src="Images/Logo_C_sharp.svg.png" class="skill-icon"/>
+             <img src={getout} class="skill-icon"/>
          </div>
          <h3>Get Out</h3>
      </div>
@@ -42,7 +49,7 @@ function Home() {
  <div class="skill-box">
      <div class="skill-title">
          <div class="language-images">
-             <img src="Images/Python_Lang.jpg" class="skill-icon"/>
+             <img src={annebelle} class="skill-icon"/>
          </div>
          <h3>Annabelle</h3>
      </div>
@@ -52,7 +59,7 @@ function Home() {
 <div class="skill-box">
  <div class="skill-title">
      <div class="language-images">
-         <img src="Images/Kotlin_Lang.jpg" class="skill-icon"/>
+         <img src={acrimony} class="skill-icon"/>
      </div>
      <h3>Acrimony</h3>
  </div>
@@ -62,11 +69,11 @@ function Home() {
 <div class="skill-box">
 <div class="skill-title">
  <div class="language-images">
-     <img src="Images/SQL_Language.png" class="skill-icon"/>
+     <img src={us} class="skill-icon"/>
  </div>
  <h3>Us</h3>
 </div>
-<p>In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look like them..</p>
+<p>In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look like them.</p>
 </div>
 </div>
 </div>
