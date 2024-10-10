@@ -1,21 +1,295 @@
-/* styles.css */
 
 nav {
     display: flex;
-    justify-content: space-around; /* Evenly space links */
-    background-color: #282c34; /* Dark background */
-    padding: 15px; /* Spacing around nav */
+    justify-content: space-around; 
+    background-color: #282c34; 
+    padding: 15px; 
 }
 
 nav a {
-    color: white; /* Light blue color for links */
-    text-decoration: none; /* Remove underline */
-    font-size: 18px; /* Font size */
-    padding: 10px 15px; /* Spacing around each link */
-    transition: color 0.3s; /* Smooth color transition */
-}
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px 15px; 
+    transition: color 0.3s; }
 
 nav a:hover {
-    color: green; /* Change color on hover */
-    border-bottom: 2px solid green; /* Underline effect on hover */
+    color: green; 
+    border-bottom: 2px solid green; 
 }
+
+.welcomenote h1, p{
+    text-align: center; 
+}
+
+.aboutme {
+    margin-top: 20px;
+}
+.aboutme h3{
+    text-align: center;
+    margin-left: 0%;
+}
+
+.aboutme h2{
+    text-align: center;
+    font-size: 2.8em;
+}
+
+.aboutme-container h3 {
+    text-align: center;
+    font-size: 1.0em;
+    line-height: 1.6;
+    color: #555; /* Medium-dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+.aboutme-container {
+    background-color: rgba(255, 255, 255, 0.637);
+    /* Increased padding to make the box bigger */
+   padding: 70px;
+   /* Rounded corners */
+   border-radius: 20px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Increased width to make the box bigger */
+   max-width: 700px;
+   width: 200%;
+   border: 3px solid#1C4508;
+   margin-left:23% ;
+}
+
+
+/*-----------------------------------------------------------------------------------PROFILE--------------------------------------------------------------------------------------------*/
+
+#profile {
+    padding-top: 80px;
+    height: 600px;
+  }
+
+
+ .profile {
+    width: 100%;
+    min-height: 100vh;
+    background: #f1efea;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.profile-content{
+    padding-top: 100px;
+    max-width: 800px;
+}
+
+.profile-content h3{
+    font-size: 42px;
+}
+
+.profile-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.profile-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+span{
+    color: #1C4508;
+}
+
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.hire-btn{
+    width: 500px;
+    height: 60px;
+    padding: 15px 28px;
+    background-color: black;
+    color: #f1efea;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing:1px ;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.hire-btn:hover{
+    background-color: #f1efea;
+    color: #1C4508;
+    border: 2px solid #1C4508;
+}
+
+.cv-btn{
+    width: 500px;
+    height: 60px;
+    padding: 15px 28px;
+    background-color: #1C4508;
+    color: #f1efea;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing:1px ;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.cv-btn:hover{
+    background-color: #f1efea;
+    color: #1C4508;
+    border: 2px solid #1C4508;
+}
+
+.img-box img{
+    border-radius: 50%;
+    width: 500px;
+    border: 4px solid #1C4508;
+} 
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.637);
+     /* Increased padding to make the box bigger */
+    padding: 70px;
+    /* Rounded corners */
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* Increased width to make the box bigger */
+    max-width: 700px;
+    width: 200%;
+    border: 3px solid#1C4508;
+    margin-left:23% ;
+    }
+
+    /*-----------------------------------------------------------------------------------MY SKILLS--------------------------------------------------------------------------------------------*/
+
+#skills {
+    padding-top: 80px;
+  }
+
+.all-skills {
+    padding-top: 20px;
+}
+
+.headers{
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    font-size: 30px
+}
+
+.headers:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: #1C4508;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+
+} 
+
+.skill-box{
+    padding: 1rem;
+    color: black;
+    cursor: pointer;
+} 
+
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::before{
+    width: 35px;
+}
+
+.skill-box:hover .language-images{
+    transform: translateY(-10px);
+}
+
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skill-title::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #1C4508;
+    transition: .5s;
+}
+
+.skill-title::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #1C4508;
+    transition: .5s;
+
+}
+
+
+.language-images{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.language-images::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+
+
+}
+
+.skill-title h3{
+    color: black;
+    margin: 0.5rem;
+}
+
+.skill-icon{
+    width: 50px;
+    z-index: 2;
+}
+
+
+
