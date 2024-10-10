@@ -6,7 +6,7 @@ function Home() {
           <div class="all-skills">
 
 <div class="headers">
-     <h1>My Skills</h1>
+     <h1>Top 6 Favourite Movies</h1>
  </div>
  <div class="skill-container">
      <div class="skill-box">
@@ -14,9 +14,9 @@ function Home() {
              <div class="language-images">
                  <img src="Images/Html_image.png" class="skill-icon"/>
              </div>
-             <h3>HTML</h3>
+             <h3>The Conjuring</h3>
          </div>
-         <p>I have been exposed, gained knowledge and understand of HTML through a learnership programme.</p>
+         <p>Rod and Carolyn find their pet dog dead under mysterious circumstances and experience a spirit that harms their daughter Andrea. They finally call investigators who can help them get out of the mess.</p>
      </div>
 
  <div class="skill-box">
@@ -24,9 +24,9 @@ function Home() {
              <div class="language-images">
                  <img src="Images/CSS_image.png" class="skill-icon"/>
              </div>
-             <h3>CSS</h3>
+             <h3>Insidious</h3>
          </div>
-         <p>I have been exposed, gained knowledge and understand of CSS through a learnership programme.</p>
+         <p>Insidious is an American horror franchise created by Leigh Whannell and James Wan that has been produced by Blumhouse in association with Sony’s Stage 6 Films since 2010. The films in the franchise include Insidious, Chapter 2, Chapter 3, The Last Key, and The Red Door.</p>
      </div>
 
  <div class="skill-box">
@@ -34,9 +34,9 @@ function Home() {
          <div class="language-images">
              <img src="Images/Logo_C_sharp.svg.png" class="skill-icon"/>
          </div>
-         <h3>C#</h3>
+         <h3>Get Out</h3>
      </div>
-     <p>Through my schooling career in University, I have been exposed and gained knowlege from C# by creating applications etc.</p>
+     <p>A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.</p>
  </div>
 
  <div class="skill-box">
@@ -44,9 +44,9 @@ function Home() {
          <div class="language-images">
              <img src="Images/Python_Lang.jpg" class="skill-icon"/>
          </div>
-         <h3>PYTHON</h3>
+         <h3>Annabelle</h3>
      </div>
-     <p>I have been exposed to Python through my Data Analytics course, through the use of machine learning.</p>
+     <p>John and Mia Form are attacked by members of a satanic cult that uses their old doll as a conduit to make their life miserable. This unleashes a string of paranormal events in the Forms' residence.</p>
  </div>
 
 <div class="skill-box">
@@ -54,9 +54,9 @@ function Home() {
      <div class="language-images">
          <img src="Images/Kotlin_Lang.jpg" class="skill-icon"/>
      </div>
-     <h3>KOTLIN</h3>
+     <h3>Acrimony</h3>
  </div>
- <p>Kotlin was a programming language that I was exposed to through University, this included creating android application for time-management, bird tracking application using API. Firebase database was utilised for storing information. </p>
+ <p>Melinda, a faithful and hardworking wife, gets tired of standing by her dishonest and unfaithful husband and begins to plan vengeance against him. Firebase database was utilised for storing information. </p>
 </div>
 
 <div class="skill-box">
@@ -64,9 +64,9 @@ function Home() {
  <div class="language-images">
      <img src="Images/SQL_Language.png" class="skill-icon"/>
  </div>
- <h3>SQL</h3>
+ <h3>Us</h3>
 </div>
-<p>I utilised SQL for creating queries that help organise information into tables, which consists of columns and rows, and manipulating the infromations within the table.</p>
+<p>In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look like them..</p>
 </div>
 </div>
 </div>

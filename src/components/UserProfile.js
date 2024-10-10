@@ -18,26 +18,17 @@ function UserProfile() {
         <div>
         <div class="profile-content">
         <h3>Hi, I am </h3>
-        <h1><span>Pholisa Nofemele.</span></h1>
-        <h4>Application Developer | Aspiring Data Analyst | Software Developer Intern</h4>
+        <h1><span>Peter Styles.</span></h1>
+        <h4>Movie Collector | Aspiring Director | Film Intern</h4>
 
-        <p>
-            I am enrolled in a Postgraduate Diploma in Data Analytics. 
-            I am a firm believer that hard work pays off and practice makes perfect. 
-            For me, trying and just showing up is the best thing you can do for yourself.
-            Throughout my academic journey, I have developed a solid foundation in programming,
-            software development, and data analysis. 
-            I want to excel and reach my full potential in my field and explore other fields that interest me.
-        </p>
+        <p>I am a passionate movie collector and an aspiring filmmaker currently exploring the world of filmmaking.My journey as a movie collector has deepened my appreciation for cinematic storytelling and fuels my desire to create impactful films that resonate with audiences. 
+        Through my academic and creative endeavors, I have built a solid foundation in storytelling, cinematography, and directing techniques.</p>
 
         <div class="btn-box">
-            <button class="hire-btn">Hire Me</button>
-            <button class="cv-btn">Download CV</button>
+        <input type="text" placeholder="Enter movie here..." class="text-box" />
+        <button class="hire-btn">Add </button>
+        <button class="cv-btn">View </button>
         </div>
-    </div>
-   
-    <div class="img-box">
-        <img src="/Image.jpg" alt="Pholisa Image"/>
     </div>
 
     </div>
