@@ -1,0 +1,21 @@
+/* styles.css */
+
+nav {
+    display: flex;
+    justify-content: space-around; /* Evenly space links */
+    background-color: #282c34; /* Dark background */
+    padding: 15px; /* Spacing around nav */
+}
+
+nav a {
+    color: white; /* Light blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    padding: 10px 15px; /* Spacing around each link */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: green; /* Change color on hover */
+    border-bottom: 2px solid green; /* Underline effect on hover */
+}
